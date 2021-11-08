@@ -2,7 +2,7 @@
 Hackathon 2021 - Team Don't Skip a Beat's Health Management Website
 ![HEARTBEAT!](https://media.discordapp.net/attachments/905975101185478656/906963122147962890/HeartRateBG.png)
 
-## With an abundance of data collected from the CDC and health care professionals highlighting physical health and mental health, we're providing a platform to local users in the St. Louis area of ways to efficiently manage their health.
+## With an abundance of data collected from the CDC and health care professionals highlighting physical and mental health, we're providing a platform to local users in the St. Louis area of ways to efficiently manage their health.
 
 
 ## Mentors
