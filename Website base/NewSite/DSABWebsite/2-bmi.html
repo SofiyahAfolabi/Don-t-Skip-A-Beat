@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head><title>Simple BMI Calculator
+</title>
+
+<script src="3-bmi.js"></script>
+</head><body style="background-color: rgb(73, 194, 216);">
+<form onsubmit="return calcBMI();">
+<table style="text-align: left; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="font-weight: bold;">
+<td style="text-align: center;" colspan="2" rowspan="1">
+<h2>BMI Calculator</h2>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">
+Choose your system:
+</td>
+<td style="font-weight: bold;">
+<label><input id="bmi-metric" name="bmi-measure" onchange="measureBMI()" checked="checked" type="radio">Metric</label>
+&nbsp; &nbsp; &nbsp; &nbsp;
+<label><input id="bmi-imperial" name="bmi-measure" onchange="measureBMI()" type="radio">Imperial
+</label></td>
+</tr>
+<tr style="font-weight: bold;">
+<td colspan="2" rowspan="1"></td>
+</tr>
+<tr>
+<td style="font-weight: bold;">
+Enter your weight:
+</td>
+<td style="font-weight: bold;">
+<input id="bmi-weight" min="1" max="635" required="" type="number"> <span id="bmi-weight-unit">KG</span>
+</td>
+</tr>
+<tr style="font-weight: bold;">
+<td colspan="2" rowspan="1"></td>
+</tr>
+<tr>
+<td style="font-weight: bold;">
+Enter your height:
+</td>
+<td style="font-weight: bold;"><input id="bmi-height" min="54" max="272" required="" type="number"><span id="bmi-height-unit">CM</span>
+</td>
+</tr>
+<tr style="font-weight: bold;">
+<td colspan="2" rowspan="1"></td>
+</tr>
+<tr style="font-weight: bold;">
+<td style="text-align: center;" colspan="2" rowspan="1"><input value="Calculate BMI" type="submit">
+</td>
+</tr>
+<tr style="font-weight: bold;">
+<td colspan="2" rowspan="1"></td>
+</tr>
+<tr style="font-weight: bold;">
+<td style="text-align: center;" colspan="2" rowspan="1">
+<hr style="width: 100%; height: 2px;">
+<div id="bmi-oresults3"></div>
+<hr style="width: 100%; height: 2px;"></td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: right;">
+<div id="bmi-results1-title"></div>
+</td>
+<td style="font-weight: bold;">
+<div id="bmi-results1"></div>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: right;">
+<div id="bmi-results2-title"></div>
+</td>
+<td style="font-weight: bold;">
+<div id="bmi-results2"></div>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: right;">
+<div id="bmi-results3-title"></div>
+</td>
+<td style="font-weight: bold;">
+<div id="bmi-results3"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</form>
+</body></html>
